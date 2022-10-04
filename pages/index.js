@@ -18,7 +18,7 @@ function Masuma() {
           color: "white",
         }}
       >
-        Masuma
+        Shuvo A.
       </div>
       <footer>
         <Script
@@ -38,9 +38,9 @@ function Masuma() {
   el.parentNode.insertBefore(div, el);
   script.addEventListener('load', function () {
     MyAliceWebChat.init({ selector: '#myAliceWebChat',
-                     platformId: '1955',
-                     primaryId: 'a461db34427c11ed8bd85efc283496f8',
-                     token: 'b38ce7e0fc9691e3b0343b6808808d469bc6b9ca08ad5073' });
+                     platformId: '1954',
+                     primaryId: '79b88f08420f11ed89192a090cf1c0fc',
+                     token: 'dc84ec56e26841510b04e6dd6f99ee9f5abf7412bd11144b' });
   });
 })();
   `,
