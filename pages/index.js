@@ -25,24 +25,7 @@ function Masuma() {
           id="myAliceWebChat"
           dangerouslySetInnerHTML={{
             __html: `
-    (function () {
-  var div = document.createElement('div');
-  div.id = 'myAliceWebChat';
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.async = true;
-  script.src = 'https://livechat.myalice.ai/index.js';
-  var lel = document.body.getElementsByTagName('script');
-  var el = lel[lel.length - 1];
-  el.parentNode.insertBefore(script, el);
-  el.parentNode.insertBefore(div, el);
-  script.addEventListener('load', function () {
-    MyAliceWebChat.init({ selector: '#myAliceWebChat',
-                     platformId: '1955',
-                     primaryId: 'a461db34427c11ed8bd85efc283496f8',
-                     token: 'b38ce7e0fc9691e3b0343b6808808d469bc6b9ca08ad5073' });
-  });
-})();
+!function(){var e=document.createElement("div");e.id="myAliceWebChat";var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://livechat.myalice.ai/index.js";var a=document.body.getElementsByTagName("script");(a=a[a.length-1]).parentNode.insertBefore(t,a),a.parentNode.insertBefore(e,a),t.addEventListener("load",function(){MyAliceWebChat.init({selector:"#myAliceWebChat",platformId:"12575",primaryId:"d930527c584911ed806dbecceb818bde",token:"7d1a62f06009580a98fc84f19a01bb1f1167f57c6e8ae3d6"})})}();
   `,
           }}
         />
