@@ -51,7 +51,7 @@ function Masuma() {
           id="myAliceWebChat"
           dangerouslySetInnerHTML={{
             __html: `
-!function(){var e=document.createElement("div");e.id="myAliceWebChat";var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://myalice-webchat-v2.netlify.app/index.js";var a=document.body.getElementsByTagName("script");(a=a[a.length-1]).parentNode.insertBefore(t,a),a.parentNode.insertBefore(e,a),t.addEventListener("load",function(){MyAliceWebChat.init({selector:"#myAliceWebChat",platformId:"3415",primaryId:"b18885706dd011ef9dfbea934f9f381b",token:"0d78ba0f45041b0ceab3675f6721e6edce026c9c3d44ca3c"})})}(); `,
+!function(){var e=document.createElement("div");e.id="myAliceWebChat";var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://676aef7672390500085fcdc7--myalice-webchat-v2.netlify.app/index.js";var a=document.body.getElementsByTagName("script");(a=a[a.length-1]).parentNode.insertBefore(t,a),a.parentNode.insertBefore(e,a),t.addEventListener("load",function(){MyAliceWebChat.init({selector:"#myAliceWebChat",platformId:"3415",primaryId:"b18885706dd011ef9dfbea934f9f381b",token:"0d78ba0f45041b0ceab3675f6721e6edce026c9c3d44ca3c"})})}(); `,
           }}
         />
       </footer>
