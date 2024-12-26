@@ -51,7 +51,7 @@ function Masuma() {
           id="myAliceWebChat"
           dangerouslySetInnerHTML={{
             __html: `
-!function(){var e=document.createElement("div");e.id="myAliceWebChat";var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://livechat.myalice.ai/index.js";var a=document.body.getElementsByTagName("script");(a=a[a.length-1]).parentNode.insertBefore(t,a),a.parentNode.insertBefore(e,a),t.addEventListener("load",function(){MyAliceWebChat.init({selector:"#myAliceWebChat",platformId:"21376",primaryId:"562abc2a5c5f11efb2e606d4f7a6f34e",token:"e833fda229901273bb43ffb33ed4c4593b4bb52304cd7e90"})})}(); `,
+!function(){var e=document.createElement("div");e.id="myAliceWebChat";var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://imj-robi-basae-url--myalice-webchat-v2.netlify.app/index.js";var a=document.body.getElementsByTagName("script");(a=a[a.length-1]).parentNode.insertBefore(t,a),a.parentNode.insertBefore(e,a),t.addEventListener("load",function(){MyAliceWebChat.init({selector:"#myAliceWebChat",platformId:"21376",primaryId:"562abc2a5c5f11efb2e606d4f7a6f34e",token:"e833fda229901273bb43ffb33ed4c4593b4bb52304cd7e90"})})}(); `,
           }}
         />
       </footer>
